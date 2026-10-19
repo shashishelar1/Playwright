@@ -13,5 +13,6 @@ test("Playwright Locators", async ({ page }) => {
     await acceptAllButton.click();
 
 
+
     await page.waitForTimeout(10000)
 })
